@@ -1,0 +1,9 @@
+#include <iostream>
+#include <vector>
+
+int main() {
+    std::vector<char> myString {'h', 'e', 'l','l','o'};
+    std::cout << "This array has: " << std::size(myString) << " elements." << std::endl;
+    std::cout << myString[0] << myString.at(0);
+    return 0;
+}
